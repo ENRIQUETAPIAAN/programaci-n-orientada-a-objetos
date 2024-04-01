@@ -12,7 +12,7 @@ class Persona{
     }
 
     public function mostrarInformacion(){
-        echo $this->nombre . ' tiene ' . $this->edad . ' años de edad y es de ' . $this->pais;
+        echo $this->nombre . ' tiene ' . $this->edad . ' años de edad y es de ' . $this->pais . '<br>';
     }
 }
 
